@@ -12,10 +12,13 @@
   
 // number()
 
-var javaScript = {
+ var javaScript = {
     name: "JavaScript",
     libraries: ["React", "Angular", "Vue"],
     printLibraries: function (){
-        this.libraries.forEach()
+        // 
+        this.libraries.forEach((a) => console.log(`${this.name} loves ${a}`))
     }
 }
+
+javaScript.printLibraries(); 
