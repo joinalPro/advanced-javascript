@@ -21,3 +21,4 @@
 }
 
 javaScript.printLibraries(); 
+javaScript.printLibraries(); 
