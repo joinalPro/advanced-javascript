@@ -14,11 +14,10 @@
 
  var javaScript = {
     name: "JavaScript",
-    libraries: ["React", "Angular", "Vue"],
+    libraries: ["React", "Angular", "Vue", "typeScript"],
     printLibraries: function (){ 
         this.libraries.forEach((a) => console.log(`${this.name} loves ${a}`))
     }
 }
 
-javaScript.printLibraries(); 
 javaScript.printLibraries(); 
