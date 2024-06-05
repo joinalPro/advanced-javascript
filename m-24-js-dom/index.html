@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Working on DOM</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    
     <style>
         #places-visited{
             color:blueviolet
@@ -12,19 +14,31 @@
 </head>
 <body>
     <header>
-        <h1 id="places-visited">Welcome to DOM</h1>
+        <h1>Welcome to DOM</h1>
     </header>
-    <main>
-        <section>
+    <main id="main-container">
+        <section class="fruits-container">
+            <h1 id="fruits-title">Furits I like</h1>
             <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 id="places-title">Places I like to visit</h1>
+            <ul id="places-list">
                 <li>Dhaka</li>
-                <li>Chandpur</li>
+                <li>Chandfpur</li>
                 <li>Chitagonj</li>
                 <li>Rajshahi</li>
             </ul>
         </section>
     </main>
     <script src="js/dom.js"></script>
+    <script src="js/csInJs.js"></script>
+    <script src="js/append.js"></script>
+
     <script>
 
     </script>
